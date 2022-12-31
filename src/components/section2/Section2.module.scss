@@ -1,0 +1,91 @@
+.wrapper {
+    margin: 150px 0 0 0;
+    padding: 0 254px 0 275px;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 157%;
+    color: #424242;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header_text {
+    max-width: 671px;
+    margin-left: 136px;
+}
+
+.steps_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.step {
+    width: 20.3vw;
+}
+
+.step_one {
+    margin-top: 52px;
+}
+
+.step_two {
+    margin-top: 339px;
+    margin-bottom: 51px;
+}
+
+.step_three {
+    margin-top: 106px;
+}
+
+.step_header {
+    position: relative;
+}
+
+.step_header_num {
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 150%;
+    text-align: center;
+    color: rgba(1, 153, 109, 0.2);
+    font-style: normal;
+}
+
+.step_header_text {
+    position: absolute;
+    top: 135px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+    font-family: 'Georgia';
+    white-space: nowrap;
+}
+
+.step_header_text_one {
+    left: 205px;
+}
+
+.step_header_text_two {
+    left: 185px;
+}
+
+.step_header_text_three {
+    left: 230px;
+}
+
+.step_text {
+    margin-bottom: 37px;
+}
+
+.step_img img {
+    border-radius: 12px;
+}

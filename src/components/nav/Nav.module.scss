@@ -1,0 +1,50 @@
+.nav {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 275px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #292929;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.links {
+    a {
+        margin-right: 72px;
+    }
+}
+
+.auth {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    a {
+        margin-right: 35px;
+    }
+}
+
+.trial {
+    width: 183px;
+    height: 51px;
+    a {
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+.divider {
+    width: 100%;
+    border-bottom: 1px solid #D6D6D6;
+}

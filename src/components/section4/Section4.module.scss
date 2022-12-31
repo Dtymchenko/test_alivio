@@ -1,0 +1,108 @@
+.bg {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 922px;
+    padding: 120px 275px 168px 336px;
+}
+
+.img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 33.25vw;
+    height: 573px;
+    background: rgba(1, 153, 109, 0.2);
+    border-radius: 18.1125px;
+}
+
+.card {
+    position: absolute;
+    left: -61px;
+    bottom: -75px;
+    width: 296px;
+    height: 294px;
+    border-radius: 3.72971px;
+    line-height: 157%;
+    color: #000000;
+    text-align: center;
+    background: url('../../../public/img/sec4_card_bg.png');
+    box-shadow: 0px 3.62249493598938px 18.11247444152832px 0px #A5A5A540;
+}
+
+.card_title {
+    margin-top: 23px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 14.49px;
+}
+
+.card_divider {
+    width: 111px;
+    margin: auto;
+    margin-bottom: 14px;
+    border: 0.75px solid #acacac;
+}
+
+.card_name {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 11.9351px;
+    line-height: 157%;
+}
+
+.card_header {
+    margin-left: 61px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 15.9292px;
+    font-family: 'Georgia';
+    text-align: left;
+}
+
+.card_list {
+    margin-left: 61px;
+    font-size: 10.6195px;
+    line-height: 157%;
+    text-align: left;
+    ul {
+        list-style-position: inside;
+        padding: 0px;
+    }
+    li {
+        margin-bottom: 16px;
+    }
+    li::before {
+        content: "";
+        margin: -3px;
+    }
+}
+
+.text {
+    width: 30vw;
+    font-size: 20px;
+    line-height: 31px;
+    color: #484848;
+    div {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    p:only-of-type {
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 157%;
+        color: #424242;
+        margin-bottom: 10px;
+    }
+}
+
+.trial {
+    width: 227px;
+    height: 65px;
+    a {
+        margin: 0 auto;
+    }
+}
+

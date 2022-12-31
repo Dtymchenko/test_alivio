@@ -1,0 +1,36 @@
+h1 {
+    margin-bottom: 30px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 74px;
+    color: #01996D;
+
+}
+
+.bg {
+    padding: 175px 0 0px 275px;
+    width: 100%;
+    min-height: 895px;
+    background: url('../../../public/img/sec1_bg.png');
+}
+
+.headline_text {
+    max-width: 420px;
+    min-height: 123px;
+    margin-bottom: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    color: #484848;
+}
+
+.trial {
+    width: 227px;
+    height: 65px;
+    a {
+        margin: 0 auto;
+    }
+}
