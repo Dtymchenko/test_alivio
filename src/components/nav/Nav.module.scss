@@ -1,5 +1,9 @@
 .nav {
-    max-width: 100%;
+    position: fixed;
+    z-index: 50;
+    top: 0;
+    background-color: white;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,6 +12,7 @@
     font-size: 20px;
     line-height: 24px;
     color: #292929;
+    border-bottom: 1px solid #D6D6D6;
 }
 
 .logo {
@@ -17,6 +22,15 @@
 .links {
     a {
         margin-right: 72px;
+    }
+}
+
+.burger_icon {
+    display: none;
+    width: 45px;
+    height: 45px;
+    img {
+        width: 100%;
     }
 }
 
@@ -40,11 +54,80 @@
     }
 }
 
+@media (max-width: 767px) {
+    .burger_icon {
+        display: block;
+    }
+    .links {
+        position: absolute;
+        top: 111px;
+        left: -100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        background-color: #000000;
+        color: white;
+        transition: left 0.3s ease-in-out;
+        overflow: hidden;
+    }
+    .active {
+        left: 0;
+    }
+}
 
+@media (min-width: 360px) and (max-width: 766px) {
+    .nav {
+        padding: 30px 5px;
+        width: 100vw;
+    }
+    
+    .auth {
+        a {
+            margin: 0;
+        }
+        div {
+            margin-left: 10px;
+        }
+    }
+    .trial {
+        width: 70px;
+        text-align: center;
+    }
+}
 
-
-
-.divider {
-    width: 100%;
-    border-bottom: 1px solid #D6D6D6;
+@media (min-width: 767px) and (max-width: 1023px) {
+    .nav {
+        padding: 30px 15px;
+    }
+    .links {
+        a {
+            margin-right: 15px;
+        }
+    }
+    .trial {
+        width: 120px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .nav {
+        padding: 30px 25px;
+    }
+    .links {
+        a {
+            margin-right: 30px;
+        }
+    }
+}
+@media (min-width: 1280px) and (max-width: 1535px) {
+    .nav {
+        padding: 30px 75px;
+    }
+}
+@media (min-width: 1536px) and (max-width: 1919px) {
+    .nav {
+        padding: 30px 175px;
+    }
 }

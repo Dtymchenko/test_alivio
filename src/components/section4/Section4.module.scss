@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    min-height: 922px;
+    min-height: 48vw;
     padding: 120px 275px 168px 336px;
 }
 
@@ -11,10 +11,15 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    width: 33.25vw;
+    width: 638px;
     height: 573px;
+    margin-right: 80px;
     background: rgba(1, 153, 109, 0.2);
     border-radius: 18.1125px;
+    > img {
+        width:22.2vw;
+        height: 33.38vw;
+    }
 }
 
 .card {
@@ -106,3 +111,85 @@
     }
 }
 
+@media (min-width: 360px) and (max-width: 766px) {
+    .bg {
+        display: block;
+        padding: 5px;
+    }
+    .img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 60px;
+        > img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .card {
+        left: 0px;
+        bottom: -50px;
+    }
+
+    .text {
+        width: 100%;
+        div {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+    
+    .trial {
+        width: 100px;
+        height: 30px;
+        margin: auto;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1023px) {
+    .bg {
+        padding: 30px 15px 0px 60px;
+    }
+    .img {
+        margin-right: 20px;
+        margin-bottom: 240px;
+    }
+    .card {
+        left: -41px;
+        bottom: -190px;
+    }
+    
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .bg {
+        padding: 30px;
+        padding-left: 60px;
+    }
+    .img {
+        margin-right: 40px;
+        margin-bottom: 120px;
+    }
+    .card {
+        left: -41px;
+        bottom: -120px;
+    }
+}
+@media (min-width: 1280px) and (max-width: 1535px) {
+    .bg {
+        padding: 75px;
+        padding-left: 130px;
+    }
+    .img {
+        margin-bottom: 40px;
+    }
+}
+@media (min-width: 1536px) and (max-width: 1919px) {
+    .bg {
+        padding: 120px 275px 168px 230px;
+    }
+    .card {
+        left: -61px;
+        bottom: -110px;
+    }
+}

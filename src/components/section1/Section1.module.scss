@@ -1,3 +1,13 @@
+.bg {
+    margin-top: 112px;
+    padding: 175px 0 0px 275px;
+    max-width: 100%;
+    height: 46.6vw;
+    background: url('../../../public/img/sec1_bg.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 h1 {
     margin-bottom: 30px;
     font-family: 'Georgia';
@@ -6,14 +16,6 @@ h1 {
     font-size: 65px;
     line-height: 74px;
     color: #01996D;
-
-}
-
-.bg {
-    padding: 175px 0 0px 275px;
-    width: 100%;
-    min-height: 895px;
-    background: url('../../../public/img/sec1_bg.png');
 }
 
 .headline_text {
@@ -32,5 +34,80 @@ h1 {
     height: 65px;
     a {
         margin: 0 auto;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 413px) {
+    .bg {
+        padding: 5px;
+    }
+    h1 {
+        font-size: 15px;
+        line-height: 22px;
+        color: #01996D;
+        margin-bottom: 5px;
+    }
+    .headline_text {
+        min-height: 0px;
+        margin-bottom: 10px;
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .trial {
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+    }
+}
+@media (min-width: 414px) and (max-width: 766px) {
+    .bg {
+        padding: 5px;
+    }
+    h1 {
+        font-size: 20px;
+        line-height: 30px;
+        color: #01996D;
+        margin-bottom: 10px;
+    }
+    .headline_text {
+        min-height: 0px;
+        margin-bottom: 10px;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .trial {
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+    }
+}
+@media (min-width: 767px) and (max-width: 1023px) {
+    .bg {
+        padding: 30px 15px;
+    }
+    h1 {
+        font-size: 30px;
+        line-height: 40px;
+        color: #01996D;
+    }
+    .headline_text {
+        margin-bottom: 10px;
+        font-size: 20px;
+        line-height: 31px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .bg {
+        padding: 30px;
+    }
+}
+@media (min-width: 1280px) and (max-width: 1535px) {
+    .bg {
+        padding: 75px;
+    }
+}
+@media (min-width: 1536px) and (max-width: 1919px) {
+    .bg {
+        padding: 175px;
     }
 }

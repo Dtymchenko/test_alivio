@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    min-height: 922px;
+    min-height: 48vw;
     background: #245852;
     padding: 229px 207px 0;
 }
@@ -38,6 +38,73 @@
     justify-content: center;
     align-items: center;
     width: 46.6vw;
-    height: 517px;
-    background: url('../../../public/img/sec3_bg.png');;
+    height: 26.95vw;
+    background: url('../../../public/img/sec3_bg.png');
+    background-size: cover;
+}
+
+@media (min-width: 360px) and (max-width: 766px) {
+    .bg {
+        display: block;
+        padding: 20px 5px 30px 5px;
+    }
+    h1 {
+        font-size: 15px;
+        line-height: 22px;
+        color: #01996D;
+        margin-bottom: 5px;
+    }
+    .headline_text {
+        min-height: 0px;
+        margin-bottom: 10px;
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .trial {
+        width: 150px;
+        height: 30px;
+        font-size: 15px;
+        margin: 10px auto;
+    }
+    .text {
+        width: 100%;
+        margin-right: 0px;
+        p {
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+    }
+    
+    .h2 {
+        color: #FFFFFF;
+        margin-bottom: 10px;
+    }
+
+    .img {
+        width: 93.2vw;
+        margin: auto;
+        height: 53.9vw;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1023px) {
+    .bg {
+        padding: 30px 15px;
+    }
+    
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .bg {
+        padding: 30px;
+    }
+}
+@media (min-width: 1280px) and (max-width: 1535px) {
+    .bg {
+        padding: 75px;
+    }
+}
+@media (min-width: 1536px) and (max-width: 1919px) {
+    .bg {
+        padding: 175px;
+    }
 }
